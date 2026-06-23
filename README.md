@@ -3,94 +3,93 @@
 > ただの取説です。
 
 # ノートの種類
-<<<<<<< HEAD
-- Classノート
+- Classノート  
   目次とまとめの役割を担います。
   "Add Page"ボタンから新規ページを作成することができます。
   "Add Flash"ボタンからフラッシュカード用のノートを作成できます。
-- 通常ノート
-	- ただのノート
+- 通常ノート  
+	- ただのノート  
 	    実際に記述を行うノートです。
 	    全てタグで管理されます。
-	- Flashノート
+	- Flashノート  
 	  フラッシュカード用のノートです。
 	  Spaced Repetitionからフラッシュカードとして読み込むことができます。
 
 # ディレクトリ構成
-- Class
+- Class  
   Classノートが配置されます。
-- Pages
+- Pages  
   通常ノートが配置されます。
-- Refs
+- Refs  
   ノート内で使う画像などのデータが配置されます。
-- Template
+- Template  
   テンプレートノートが配置されています。
 
 # 使い方
-- [[Home.canvas]]がメインのノートです。
-- ノートは階層分けされません。
+- [[Home.canvas]]がメインのノートです。  
+- ノートは階層分けされません。  
   -> タグで管理されます。
-- Classノートには"目次とまとめ"の役割があり、Classノートから作成されたノートには、自動的にタグ付けが行われます。
+- Classノートには"目次とまとめ"の役割があり、Classノートから作成されたノートには、自動的にタグ付けが行われます。  
   -> [[Home.canvas]]上の"Add Page"ボタンから作成したノートにはタグが付与されません。
 
 # 導入されているプラグイン
-- Advanced Tabled
+- Advanced Tabled  
   表作成の補助を行います。
-- BRAT
+- BRAT  
   ベータ版のプラグインの管理を行います。
   コミュニティプラグインとして配布される前のプラグインの導入に利用します。
-- Chem
+- Chem  
   化学式などのレンダリングを補助します。
-- Current View
+- Current View  
   ファイルを開いたときの表示モードを固定します。
   Classノートは編集モードではなくプレビューモードで開きたいので、事前に表示モードをプレビューに固定するために利用しています。
-- Dataview
+- Dataview  
   動的に動作するリストを生成します。
-- Desmos
+- Desmos  
   グラフなどのレンダリングを行います。
-- Excalidraw
+- Excalidraw  
   手書きなどに対応したホワイトボードを追加します。
-- Git
+- Git  
   保管庫全体をGit管理します。
-- Homepage
+- Homepage  
   指定したノートをホームページとして扱い、起動時に表示したり、ショートカットからホームページを開いたりできます。
-- Iconize
+- Iconize  
   ファイルエクスプローラー画面でファイル名の隣にアイコンを設定できるようになります。
-- Image Converter
+- Image Converter  
   画像を貼り付けるときに画像サイズを変更できるようになります。
-- JS Engine
+- JS Engine  
   Dataviewプラグインを強化するために必要です。
-- Latex Suite
+- Latex Suite  
   Tex入力を支援してくれます。
-- Link Embed
+- Link Embed  
   リンクを貼り付けるときに埋め込み表示してくれます。
-- Masking Type
+- Masking Type  
   "\=="で囲んだところを穴埋め問題にしたりできます。
-- Mermaid Tools
+- Mermaid Tools  
   Mermaid記法を支援してくれます。
-- Meta Bind
+- Meta Bind  
   ボタンとかを追加してくれます。
-- Mindmap NextGen
+- Mindmap NextGen  
   マインドマップをMarkdownベースの記述方法で作成できます。
-- Minimal Theme Settings
+- Minimal Theme Settings  
   Minimalというテーマをカスタマイズできるプラグインです。
-- Obsidian Functionplot
+- Obsidian Functionplot  
   グラフ描画ようです。
-- Shiki Highlighter
+- Shiki Highlighter  
   コードスニペットを見やすくしてくれます。
-- Sortable
+- Sortable  
   表のソートを可能にします。
-- Spaced Repetition
+- Spaced Repetition  
   単語帳機能を追加します。
-- Style Settings
+- Style Settings  
   テーマやCSSの変数を変更できるようになります。
-- Tasks
+- Tasks  
   Todoを管理しやすくします。
-- Templater
+- Templater  
   テンプレートノートから新しいノートを作成できるようになります。
-- TikZJax
+- TikZJax  
   Latex系の機能を強化します。
-- Typewiter Scroll
+- Typewiter Scroll  
   文字を書くときに自動的にノートをスクロールしてくれます。
-- Typing Assistant
+- Typing Assistant  
   "/"を入力すると事前に設定したショートカットを発動呼び出せます。
