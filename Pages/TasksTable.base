@@ -1,0 +1,50 @@
+filters:
+  not:
+    - file.name.contains(".base")
+views:
+  - type: table
+    name: All-Page
+    filters:
+      and:
+        - file.folder == "Pages"
+    order:
+      - file.name
+      - Priority
+      - Await
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: Priority
+        direction: DESC
+      - property: created
+        direction: ASC
+      - property: TaskPriority
+        direction: ASC
+    summaries: {}
+    columnSize:
+      file.name: 201
+      note.Priority: 54
+      note.Await: 116
+  - type: table
+    name: All-Todo
+    filters:
+      and:
+        - file.tags.contains("Todo")
+    order:
+      - file.name
+      - TaskPriority
+      - Await
+      - TaskCreated
+    sort:
+      - property: TaskPriority
+        direction: ASC
+      - property: Await
+        direction: ASC
+    summaries: {}
+    columnSize:
+      note.TaskPriority: 18
+      note.Await: 116
+      note.TaskCreated: 157
+  - type: table
+    name: ビュー

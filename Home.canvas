@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"b42189ccf3c60fc3","type":"file","file":"Pages/TasksTable.base","x":-479,"y":64,"width":460,"height":256,"color":"2"},
+		{"id":"9e00c28a3ff6e9cc","type":"file","file":"Pages/ClassTable.base","x":-479,"y":-158,"width":100,"height":222,"color":"5"},
+		{"id":"883bcb92e3a50e21","type":"text","text":"> [!cards]\n> ```meta-bind-button\n> style: primary\n> label: Add Page\n> id: add-project-default\n> action:\n>   type: templaterCreateNote\n>   templateFile: \"Template/Page-ask-title.md\"\n>   folderPath: \"Pages\"\n> ```\n> ```meta-bind-button\n> style: primary\n> label: Add Class\n> id: add-project-default\n> action:\n>   type: templaterCreateNote\n>   templateFile: \"Template/Class.md\"\n>   folderPath: \"Class\"\n> ```\n\n","x":-379,"y":14,"width":360,"height":50},
+		{"id":"441bc886e27ccddf","type":"text","text":"空きスペースです!\n何をおいても大丈夫な場所です!","x":-378,"y":-158,"width":359,"height":172,"color":"5"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("Class")
+        - file.folder == "Class"
+    order:
+      - file.name
+    sort:
+      - property: 授業予定曜日
+        direction: DESC
+  - type: table
+    name: ビュー
