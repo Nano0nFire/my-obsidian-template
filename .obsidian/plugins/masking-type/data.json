@@ -1,0 +1,14 @@
+{
+  "shouldMaskBold": false,
+  "shouldMaskItalic": false,
+  "shouldMaskHighlight": true,
+  "selectedHint": {
+    "type": "none",
+    "value": 30
+  },
+  "blurStrength": 2,
+  "peekingPercentage": 30,
+  "shouldDisplayOnMouseOver": false,
+  "shouldMaskOnMouseLeave": false,
+  "shouldSetClozeTestStyle": false
+}

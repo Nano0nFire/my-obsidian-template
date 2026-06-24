@@ -1,0 +1,46 @@
+/* Current View Plugin Styles */
+
+/* Lock Icons - shared styles */
+.current-view-lock,
+.current-view-lock-nn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* File Explorer badge */
+.current-view-lock {
+  margin-left: 6px;
+  opacity: 0.8;
+}
+
+.current-view-lock svg {
+  width: 14px;
+  height: 14px;
+  color: var(--text-muted);
+}
+
+/* Notebook Navigator badge */
+.current-view-lock-nn {
+  margin-left: 4px;
+  opacity: 0.7;
+}
+
+.current-view-lock-nn svg {
+  width: 12px;
+  height: 12px;
+  color: var(--text-muted);
+}
+
+/* File Explorer specific */
+.nav-file-title:hover .current-view-lock,
+.nav-folder-title:hover .current-view-lock {
+  opacity: 1;
+}
+
+.nav-file-title.is-active .current-view-lock svg,
+.nav-folder-title.is-active .current-view-lock svg {
+  color: var(--text-on-accent);
+}

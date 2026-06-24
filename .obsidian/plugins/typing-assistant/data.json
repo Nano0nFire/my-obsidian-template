@@ -1,0 +1,10 @@
+{
+  "nonEmptyLineDisabled": false,
+  "showPlaceholder": true,
+  "cmdsSorting": [
+    "insert-todo",
+    "insert-bulletList",
+    "insert-numberList"
+  ],
+  "disableSelectionMenu": false
+}

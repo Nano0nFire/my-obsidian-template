@@ -1,0 +1,13 @@
+{
+  "queries": [
+    {
+      "createdAt": "2025/07/23 18:42:19",
+      "id": "202507231842190",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"LocalLLM\"},\"relation\":\"AND\"}]",
+      "title": "LLM",
+      "updatedAt": "2025/07/23 18:42:19",
+      "userId": "Thino"
+    }
+  ]
+}

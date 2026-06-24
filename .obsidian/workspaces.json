@@ -1,0 +1,301 @@
+{
+  "workspaces": {
+    "default": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "8408593150f44cc2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "62810cbeb6a7ed64",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新規タブ"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "74ee213b885f82d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "90f4d5ef21e14359",
+            "type": "tabs",
+            "dimension": 45.68181818181819,
+            "children": [
+              {
+                "id": "00967533c120c185",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "ファイルエクスプローラ"
+                }
+              },
+              {
+                "id": "586e451a4d308db3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "f24d49d44d13525f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "検索"
+                }
+              },
+              {
+                "id": "5a606937956bb894",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "ブックマーク"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "4b2bfbc116b7c5f2",
+            "type": "tabs",
+            "dimension": 54.31818181818182,
+            "children": [
+              {
+                "id": "776b5f75b3fdcde8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Home.canvas",
+                    "viewState": {
+                      "x": -245.22089446317696,
+                      "y": 117.59271238033595,
+                      "zoom": -0.44438137571016945
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Home"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 343.5
+      },
+      "right": {
+        "id": "14302100943bcaee",
+        "type": "split",
+        "children": [
+          {
+            "id": "33c98a84e1d13f44",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "08bdba6a36f20d18",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Transformer.md",
+                    "followCursor": true,
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Transformer"
+                }
+              },
+              {
+                "id": "a71deff1af4b49ff",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "タグ"
+                }
+              },
+              {
+                "id": "7b325d2d1c1c97ba",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "92649c80d47b96fb",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Gizmodo/自動動画編集.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "自動動画編集へのバックリンク"
+                }
+              },
+              {
+                "id": "675f0dea0c592955",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Public/Obsidianを使いたい20260210130229.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Obsidianを使いたい20260210130229からのアウトゴーイングリンク"
+                }
+              },
+              {
+                "id": "bb69c7caeaad3552",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "すべてのプロパティ"
+                }
+              },
+              {
+                "id": "8133431ab36f2954",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {},
+                  "icon": "lucide-file-signature",
+                  "title": "脚注"
+                }
+              },
+              {
+                "id": "bc9a99259d77efb2",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "trident-custom",
+                  "title": "Mermaid Toolbar"
+                }
+              },
+              {
+                "id": "c2d54a8664eb20ab",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {},
+                  "icon": "SpacedRepIcon",
+                  "title": "ノートレビューのキュー"
+                }
+              }
+            ],
+            "currentTab": 8
+          },
+          {
+            "id": "b14e19d0880b70e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "912792b8c3984a6b",
+                "type": "leaf",
+                "state": {
+                  "type": "sprout-widget",
+                  "state": {},
+                  "icon": "lucide-sprout",
+                  "title": "Sprout"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 419.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-livesync:P2P Replicator": false,
+          "obsidian-livesync:Show Log": false,
+          "obsidian-livesync:Replicate": false,
+          "switcher:クイックスイッチャーを開く": true,
+          "graph:グラフビューを開く": true,
+          "canvas:新規キャンバスを作成": true,
+          "daily-notes:今日のデイリーノートを開く": true,
+          "templates:テンプレートを挿入": true,
+          "command-palette:コマンドパレットを開く": true,
+          "bases:新規ベースを作成": true,
+          "obsidian-spaced-repetition:フラッシュカードのレビュー": false,
+          "obsidian-git:Open Git source control": false,
+          "obsidian-excalidraw-plugin:New drawing": true,
+          "templater-obsidian:Templater": true,
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "sprout:Sprout": false,
+          "homepage:Open homepage": false,
+          "obsidian42-brat:BRAT": true,
+          "notion-bases:Notion bases": false,
+          "workspaces:ワークスペースレイアウトを管理": false,
+          "obsidian-livesync:カスタマイズ同期を表示": false
+        }
+      },
+      "active": "c2d54a8664eb20ab",
+      "mtime": "2026-04-20T23:39:18+09:00"
+    }
+  },
+  "active": "default"
+}
