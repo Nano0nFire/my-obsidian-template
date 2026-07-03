@@ -36,26 +36,59 @@
 　デフォルト状態では"Add Page"および"Add Flash"で追加されるノートの名前は`生成元のClass名 + ファイル生成時の時間`になっています。ファイル名に時間を埋め込んでいる理由は、ファイル名の衝突を回避するため(ファイル名に一意にするため)です。しかし、明らかにファイル名が読みづらくなっています。ノートのタイトルは別で管理しているので慣れれば問題ないはずですが、それでも使いづらいと言う人のために、ファイル名にノートタイトルを埋め込む方法を紹介しておきます。
 　`Template/`配下にある`Flash`、`Page`、`Page-ask-title`の三つのファイルに対して次のような変更を加えてください。
 
-`Flash`と`Page`に対する変更
+`Flash`を以下のものに置き換える
 ```
-let title = tp.file.title;
-await tp.file.rename(title + tp.date.now("YYYYMMDDHHMMSS"));
-```
-->
-```
+<%*
+let tag = tp.file.title;
 let title = await tp.system.prompt("Title");
-await tp.file.rename(title;
+await tp.file.rename(title);
+
+tR += "---\n";
+tR += "Title: " + title + "\n";
+tR += "Priority: undef\n";
+tR += "Await: \n"
+tR += "Due: " + tp.date.now("YYYY-MM-DDTHH:mm") + ":00\n";
+tR += "tags:\n";
+tR += "  - " + tag + "\n";
+tR += "  - flash/" + tag + "\n";
+tR += "---\n";
+%>
 ```
 
-`Page-ask-title`に対する変更
+`Page`を以下のものに置き換える
 ```
+<%*
+let tag = tp.file.title;
 let title = await tp.system.prompt("Title");
-await tp.file.rename(title + tp.date.now("YYYYMMDDHHmmss"));
+await tp.file.rename(title);
+
+tR += "---\n";
+tR += "Title: " + title + "\n";
+tR += "Priority: undef\n";
+tR += "Await: \n"
+tR += "Due: " + tp.date.now("YYYY-MM-DDTHH:mm") + ":00\n";
+tR += "tags:\n";
+tR += "  - " + tag + "\n";
+tR += "---\n";
+%>
 ```
-->
+
+`Page-ask-title`を以下のものに置き換える
 ```
+<%*
+let tag = tp.file.title;
 let title = await tp.system.prompt("Title");
-await tp.file.rename(title;
+await tp.file.rename(title);
+
+tR += "---\n";
+tR += "Title: " + title + "\n";
+tR += "Priority: undef\n";
+tR += "Await: \n"
+tR += "Due: " + tp.date.now("YYYY-MM-DDTHH:mm") + ":00\n";
+tR += "tags:\n";
+tR += "  - " + tag + "\n";
+tR += "---\n";
+%>
 ```
 
 # 導入されているプラグイン
