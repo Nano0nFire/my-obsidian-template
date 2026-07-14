@@ -91,6 +91,17 @@ tR += "---\n";
 %>
 ```
 
+# いい感じのサイト
+参考にしてみてください!
+- [Obsidianを使いたい](https://qiita.com/nano_on_fire/items/5afe48c94108f03b8e6a)
+  ObsidianとIDEの違いなどObsidianのいいところを紹介しています。
+- [Obsidianを使いたい - テーマ・CSS編](https://qiita.com/nano_on_fire/items/e19a0f3d92f9fa2d43d6)
+  テーマ・CSS機能を紹介しています。
+- [Obsidianを使いたい - 保管庫構成編](https://qiita.com/nano_on_fire/items/9f0df93d5a6190fae031)
+  代表的なノート管理術を紹介しています。この保管庫で採用しているもの以外も紹介しています。
+- [Obsidianを使いたい - 小技編](https://qiita.com/nano_on_fire/items/472a46f3c9f894055eeb)
+  ちょっと変な使い方を紹介しています。
+
 # 導入されているプラグイン
 - Advanced Tabled  
   表作成の補助を行います。
